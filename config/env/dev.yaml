@@ -1,0 +1,27 @@
+mongodb:
+  host: localhost
+  port: 27017
+  replica_set:
+  dbname: 
+
+bigquery:
+  credential_file: 
+  project_name: 
+
+hive_mysql:
+  hive_host: localhost
+  hive_port: 10000
+  hive_user: hadoop
+  hive_password: <HIVE_PASSWORD>
+  hive_db: salesforce
+
+mail_sendgrid:
+  SG_APIKEY   : 
+  SG_API      : https://api.sendgrid.com/v3/mail/send
+  email_from  : no-reply@test.com
+
+mysql_db:
+  HOST        : localhost
+  USER        : 
+  PASSWORD    : 
+  DBNAME      : 
